@@ -1,2 +1,4 @@
-# CLI-taks2.0
-"To-do list built in pure Java, runs in the terminal using the Java compiler. Supports adding, deleting, updating and marking tasks as done."
+# Random pasword generator
+Random password generator made with pure HTML, JS and CSS. It's programmed with real actions, for instance copy and generate random passwords.
+
+
