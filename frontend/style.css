@@ -1,0 +1,123 @@
+
+
+
+
+    body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: palevioletred;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+      
+    }
+
+    i{
+        color: sandybrown;
+        right: 10px;
+        position: absolute;
+    }
+
+    #pswrd{
+
+        width: 200px;
+        background-color: transparent;
+
+    }
+
+    #container{
+
+        padding: 100px;
+        width: 500px;
+        height: 400px;
+        background-color: pink;
+        border-radius: 30px ;
+        
+        
+    }
+
+
+    #ccd{
+        width: 200px;      
+    }
+
+
+
+
+    #input_container{
+
+        
+        border: solid 2px black;
+        padding: 10px;
+        border-radius: 20px;
+        position: relative;
+
+    }
+
+    input{
+        border: transparent;
+        outline: none ;
+        letter-spacing: 4px;
+    }
+
+
+    input::placeholder{
+        letter-spacing: 0px;
+    }
+
+
+      #btn{
+
+        border: none;
+        border-radius: 100px;
+        background-color: rgb(150, 49, 244);
+        cursor: pointer;
+    }
+
+    #btn:hover{
+
+      background-color: rgb(189, 56, 187);          
+
+    }
+
+    #btn:active{
+
+    transform: scale(0.80);
+
+    }
+
+
+
+    .alert_container{
+        
+        position: fixed;
+        width: 200px;
+        height: 100px;
+        background-color: green;
+        right: -300px;
+        bottom: 20px;
+        border-radius: 10px;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+    .active.alert_container{
+
+        margin-right: 20px;
+
+            
+    }
+
+    #icon{
+
+    }
